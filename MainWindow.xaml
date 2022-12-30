@@ -1,0 +1,20 @@
+﻿<Window x:Class="stoperica.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:stoperica"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="Stoperica">
+        <Button x:Name="btnStart" Content="Start" HorizontalAlignment="Left" Margin="10,292,0,0" VerticalAlignment="Top" Height="43" Width="109" FontFamily="Verdana" FontSize="22" Click="btnStart_Click" Background="#FFFA7878"/>
+        <Button x:Name="btnStop" Content="Stop" HorizontalAlignment="Left" Margin="158,292,0,0" VerticalAlignment="Top" Height="43" Width="106" FontFamily="Verdana" FontSize="22" Click="btnStop_Click" Background="#FFFF7D7D"/>
+        <Button x:Name="buttonReset" Content="Reset" HorizontalAlignment="Left" Margin="310,292,0,0" VerticalAlignment="Top" Height="43" Width="107" FontFamily="Verdana" FontSize="22" Click="buttonReset_Click" Background="#FFFA7575"/>
+        <TextBox x:Name="txtStoperica" HorizontalAlignment="Left" Margin="33,24,0,0" TextWrapping="Wrap" Text="00:00:00" VerticalAlignment="Top" Width="355" Height="229" FontFamily="Arial Rounded MT Bold" FontSize="48"/>
+
+        <Button x:Name="btnSpremi" Content="Spremi" HorizontalAlignment="Left" Margin="468,292,0,0" VerticalAlignment="Top" Height="43" Width="113" Click="btnSpremi_Click" FontFamily="Verdana" FontSize="22" Background="#FFFA7F7F"/>
+        <Button x:Name="btnPrikazi" Content="Prikaži" HorizontalAlignment="Left" Margin="620,292,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.103,-1.471" Height="43" Width="104" Click="btnPrikazi_Click" FontFamily="Verdana" FontSize="22" Background="#FFFF8383"/>
+        <TextBox x:Name="txtPrikazi" HorizontalAlignment="Left" Height="229" Margin="468,24,0,0" TextWrapping="Wrap" Text="Zabilježeno vrijeme" VerticalAlignment="Top" Width="298" FontFamily="Verdana" FontSize="18"/>
+
+    </Grid>
+</Window>
